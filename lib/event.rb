@@ -30,7 +30,7 @@ class Event
   def is_soon?
     (start_date - Time.now) <= 30*60 
   end
-
+  
   def to_s
     print">"  
     puts "Titre: #{@title}"
